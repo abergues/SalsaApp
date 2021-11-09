@@ -37,7 +37,10 @@ We expect 2 main outputs:
 2. Processing JSON:
 * Assing ID for the FO and LE 
 * Track the ID of each person (Maybe object detection)
-* 
+
+### Data construction
+1. Decide on the labels
+2. Labeling the data in automatic way
 
 ### Training model XXX
 
