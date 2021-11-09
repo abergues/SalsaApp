@@ -18,6 +18,13 @@ We expect 2 main outputs:
 1. Given a video: obtain the annotations at different levels (words or sentences)
 1. Given a seed movement: generate words or sentences that can continue the dance in autonomus way
 
+## Tasks related to the statement of the problem
+
+1. Data that we have 
+2. Methods
+3. Output of the program
+
+
 ## Tasks having to do with the project building
   
   1. Git repo.
@@ -28,8 +35,8 @@ We expect 2 main outputs:
    * Git and google drive
 
 ## Theory to check
-  1. Openpose model and limitations. Can be improved for a dance couple?
-  2. 
+  1. Openpose model and limitations, which model they used? Dimension of the output Can be improved for a dance couple?
+  
   
 ## Tasks 
 ### Preprocessing
@@ -40,7 +47,7 @@ We expect 2 main outputs:
 
 ### Data construction
 1. Decide on the labels
-2. Labeling the data in automatic way
+2. Labeling the data in manual/automatic way
 
 ### Training model XXX
 
