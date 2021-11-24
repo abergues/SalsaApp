@@ -23,6 +23,7 @@ from os.path import exists, join, basename, splitext
 
 
 # https://drive.google.com/file/d/12v8kJJp_Bvsz3xJMc3olvl-3Wce3_Acb/view?usp=sharing
-url = requests.get('https://drive.google.com/file/d/12v8kJJp_Bvsz3xJMc3olvl-3Wce3_Acb/view?usp=sharing')
-csv_raw = StringIO(url.text)
-dfs = pd.read_csv(csv_raw)
+url = wget('https://drive.google.com/file/d/12v8kJJp_Bvsz3xJMc3olvl-3Wce3_Acb/view?usp=sharing')
+print(url)
+openpose_df = pd.read_csv(url)
+openpose_df
