@@ -1,3 +1,6 @@
 pandas
 requests
 io
+ffprobe
+
+IPython.display
