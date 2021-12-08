@@ -1,6 +1,6 @@
-python=3.8
 pandas
 requests
+ffprobe
 opencv-python
 pytz
 python-dateutil
